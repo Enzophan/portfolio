@@ -47,3 +47,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 # portfolio refer
 - $ https://www.youtube.com/watch?v=fWUkPgBN-58
+- $ https://www.youtube.com/watch?v=3aCoZudPEKE
+
+# Icon Libs
+- https://iconscout.com/unicons/free-line-icon-fonts
+- https://www.svgrepo.com/svg/522653/send-1

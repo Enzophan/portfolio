@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./header.css";
 
 // https://iconscout.com/unicons
@@ -6,11 +6,20 @@ import "./header.css";
 type Props = {}
 
 const Header = (props: Props) => {
+    const [toggle, setToggle] = useState<Boolean>(false);
+
+    const handleMenu = (e: React.MouseEvent<HTMLDivElement>) => {
+        e.preventDefault();
+        setToggle(!toggle)
+    }
+
+
     return (
         <header className='header'>
             <nav className='nav container'>
                 <a href="" className='nav__logo'>Zinzo</a>
-                <div className='nav__menu'>
+
+                <div className={toggle ? 'nav__menu show-menu' : 'nav__menu'}>
                     <ul className='nav__list grid'>
                         <li className="nav__item">
                             <a href="#home" className="nav__link active-link">
@@ -50,11 +59,11 @@ const Header = (props: Props) => {
                         </li>
                     </ul>
 
-                    <i className='uil uil-times nav__close'></i>
+                    <i className='uil uil-times nav__close' onClick={handleMenu}></i>
 
                 </div>
-                <div className="nav__toggle">
-                    <i className="uil uil-apps"></i>
+                <div className="nav__toggle" onClick={handleMenu}>
+                    <i className="uil uil-apps" ></i>
                 </div>
 
             </nav>
