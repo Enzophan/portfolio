@@ -46,7 +46,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 # portfolio refer
-- $ https://www.youtube.com/watch?v=fWUkPgBN-58
+- $ CI/CD: https://www.youtube.com/watch?v=fWUkPgBN-58
 - $ https://www.youtube.com/watch?v=3aCoZudPEKE
 
 # Icon Libs

@@ -17,7 +17,7 @@ const Header = (props: Props) => {
     return (
         <header className='header'>
             <nav className='nav container'>
-                <a href="" className='nav__logo'>Zinzo</a>
+                <a href="/" className='nav__logo'>Zinzo</a>
 
                 <div className={toggle ? 'nav__menu show-menu' : 'nav__menu'}>
                     <ul className='nav__list grid'>
