@@ -53,3 +53,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - https://iconscout.com/unicons/free-line-icon-fonts
 - https://www.svgrepo.com/svg/522653/send-1
 - https://boxicons.com
+- https://boxicons.com/?query=badg
