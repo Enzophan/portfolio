@@ -6,6 +6,7 @@ import Header from "./components/header";
 import Home from "./components/home";
 import Skills from "./components/skills";
 import Services from "./components/services";
+import Qualification from "./components/qualification";
 
 function App() {
   // const env = process.env.REACT_APP_FROM || "";
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Skills />
         <Services />
+        <Qualification />
       </main>
     </>
   );
