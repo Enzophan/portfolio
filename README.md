@@ -46,11 +46,26 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 # portfolio refer
-- $ CI/CD: https://www.youtube.com/watch?v=fWUkPgBN-58
+- $ https://www.youtube.com/watch?v=fWUkPgBN-58
 - $ https://www.youtube.com/watch?v=3aCoZudPEKE
+- $ https://dev.to/sh20raj/how-to-dockerize-a-react-application-19kc
+
+
+# Typescript:
+- $ https://dev.to/drlacheheb/typescript-with-react-components--3h25
 
 # Icon Libs
 - https://iconscout.com/unicons/free-line-icon-fonts
 - https://www.svgrepo.com/svg/522653/send-1
 - https://boxicons.com
-- https://boxicons.com/?query=badg
+
+
+# Build the Docker Image
+- $ docker build -t my-portfolio .
+
+# Run the Docker Container
+- $ docker run -p 3000:3000 my-portfolio
+
+# Run the Docker Compose
+- $ docker-compose up -d
+- $ docker-compose down
