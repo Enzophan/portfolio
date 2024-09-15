@@ -8,6 +8,7 @@ import Skills from "./components/skills";
 import Services from "./components/services";
 import Qualification from "./components/qualification";
 import Testimonials from "./components/testimonials";
+import Contact from "./components/contact";
 
 function App() {
   // const env = process.env.REACT_APP_FROM || "";
@@ -21,6 +22,7 @@ function App() {
         <Services />
         <Qualification />
         <Testimonials />
+        <Contact />
       </main>
     </>
   );
