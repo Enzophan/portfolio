@@ -9,6 +9,8 @@ import Services from "./components/services";
 import Qualification from "./components/qualification";
 import Testimonials from "./components/testimonials";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
+import ScrollUp from "./components/scrollup";
 
 function App() {
   // const env = process.env.REACT_APP_FROM || "";
@@ -24,6 +26,8 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 }
