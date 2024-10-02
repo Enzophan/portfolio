@@ -61,10 +61,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 # Build the Docker Image
-- $ docker build -t my-portfolio .
+- $ docker build -t zinzo-portfolio .
 
 # Run the Docker Container
-- $ docker run -p 3000:3000 my-portfolio
+- $ docker run -p 3000:3000 zinzo-portfolio
 
 # Run the Docker Compose
 - $ docker-compose up -d
